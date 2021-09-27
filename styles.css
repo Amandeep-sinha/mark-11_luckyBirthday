@@ -1,0 +1,43 @@
+body{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background-color:turquoise;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+}
+
+main label{
+    font-size: 1.4em;
+    margin: 0.5em;
+}
+
+main input {
+    font-size: 1em;
+    box-shadow: none;
+    border: none;
+    border-radius:0.4em;
+    max-width:200px;
+    margin: auto;
+    padding: 0.4em;
+}
+
+button {
+    box-shadow: none;
+    border: solid;
+    border-radius: 0.4em;
+    width: max-content;
+    padding: 0.5em;
+    margin: auto;
+    margin-top: 1em;
+    background-color: yellowgreen
+}
+
+p{
+    font-size: 1.4em;
+}
