@@ -2,6 +2,7 @@ var dob = document.querySelector("#dob");
 var luckyNum = document.querySelector("#number");
 const checkBtn = document.querySelector("#check");
 var output = document.querySelector("#output-msg")
+checkBtn.addEventListener("click",clickHandler());
 
 function clickHandler(){
     if(dob.value === "" || luckyNum.value === ""){
